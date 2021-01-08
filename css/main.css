@@ -1,0 +1,43 @@
+.container{
+    margin: 20px auto;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.container .level{
+    margin-left: 20px;
+}
+.container .level0{
+    margin-left: 0;
+}
+.container .levelChildren{
+    transition: visibility 3s ease;
+}
+
+.container .level li {
+    margin-top: 10px;
+}
+.container .level li a{
+    font-size: 14px;
+    color: #000;
+    font-family: "microsoft yahei";
+}
+.container .level li span{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.iconMinus{
+    cursor: pointer;
+    background: url('../images/Minus.png');
+}
+.iconPlus{
+    cursor: pointer;
+    background: url('../images/Plus.png');
+}
+.iconFile{
+    background: url('../images/file.png');
+}
